@@ -13,7 +13,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Raleway", sans-serif;
 }
 
-p, a {
+p, a, li {
     font-family: "Open Sans", sans-serif;
     font-size: 1.25em;
 }
@@ -24,6 +24,10 @@ h1 {
 
 h2 {
     font-size: 2.75em;
+}
+
+h3 {
+    font-size: 2em;
 }
 
 header {
@@ -79,4 +83,17 @@ header nav a {
 
 .home-bg {
     background-color: var(--home-bg);
+}
+
+#home-wrapper {
+    padding-left: 2em;
+}
+
+.check-list {
+    padding-left: 1em;
+    list-style: "\2713";
+}
+
+.check-list li {
+    padding-left: 0.85em;
 }
