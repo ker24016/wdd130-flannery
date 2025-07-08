@@ -54,7 +54,7 @@ header nav a {
 }
 
 #hero {
-    padding-left: 2em;
+    padding-left: 8em;
     padding-bottom: 1.5em;
 }
 
@@ -91,8 +91,8 @@ header nav a {
 }
 
 #home-wrapper {
-    padding-left: 2em;
-    padding-right: 2em;
+    padding-left: 8em;
+    padding-right: 8em;
 }
 
 .check-list {
@@ -124,6 +124,11 @@ header nav a {
 
 #home-cta * {
     width: 100%;
+}
+
+#home-cta .button {
+    height: 2em;
+    padding: 0.275em; /* to center vertically */
 }
 
 footer {
