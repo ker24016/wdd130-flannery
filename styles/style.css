@@ -136,6 +136,7 @@ footer {
     padding-left: 1em;
     grid-template-columns: 1fr 1fr 1fr 2fr;
     background-color: var(--home-bg);
+    padding-bottom: 1em;
 }
 
 footer * {
@@ -145,4 +146,8 @@ footer * {
 
 main {
     margin-bottom: 1em;
+}
+
+body {
+    margin: 0;
 }
