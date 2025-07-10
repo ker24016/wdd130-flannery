@@ -147,3 +147,39 @@ main {
 body {
     margin: 0;
 }
+
+.fishing-title {
+    text-align: center;
+}
+
+.gear-tips {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    padding: 50px 200px;
+}
+
+.gear ul, .tips ul {
+    text-align: left;
+    padding-left: 100px;
+}
+
+.gear, .tips {
+    border: 1px solid black;
+    text-align: center;
+}
+
+.buttontip {
+    border: 1px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: fit-content;
+    text-decoration: none;
+    color: black;
+    margin: 0 auto;
+}
+
+.buttontip a {
+    text-decoration: none;
+    color: black;
+}
