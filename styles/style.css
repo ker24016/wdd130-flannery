@@ -6,7 +6,7 @@
     --accent1: #A7D7E7;
     --accent2: #F7F6F3;
 
-    --home-bg: lightgray;
+    background-color: lightgray;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -82,17 +82,13 @@ header nav a {
 }
 
 #hero .button {
-    background-color: var(--home-bg);
     padding: 5px 20px;
-}
-
-.home-bg {
-    background-color: var(--home-bg);
 }
 
 #home-wrapper {
     padding-left: 8em;
     padding-right: 8em;
+    background-color: white;
 }
 
 .check-list {
@@ -120,6 +116,7 @@ header nav a {
     grid-template-columns: 1fr 1fr;
     grid-gap: 1em;
     text-align: center;
+    padding-bottom: 1em;
 }
 
 #home-cta * {
@@ -135,13 +132,12 @@ footer {
     display: grid;
     padding-left: 1em;
     grid-template-columns: 1fr 1fr 1fr 2fr;
-    background-color: var(--home-bg);
     padding-bottom: 1em;
+    margin-top: 0;
 }
 
 footer * {
     margin: 0;
-    padding-top: 1em;
 }
 
 main {
